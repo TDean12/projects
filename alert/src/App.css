@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+.tom{
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+.container{
+  background-color: blanchedalmond;
+  height: 230px;
+  border-radius: 10px;
+  width: 150px;
+}
+.grp1{ 
+  display: flex;
+}
+.zuras{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  height: 1px;
+  width: 90px;
+  margin-top: 9px;
+}
+.name{
+  margin-top: 20px;
+}
+.grp2{
+  margin-top: 20px;
+}
+.balence{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.email{
+  margin-top: 20px;
+}
+.emaill{
+  border: none;
+  border-bottom: 2px solid black;
+   outline: none;
+}
+.submit{
+  border-color:rgb(57, 155, 225);
+  background-color: rgb(57, 155, 225);
+  margin-top: 35px;
+}

@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+  color: white;
+}
+.container{
+  margin-left: 1000px;
+  margin-top: 400px;
+}
+.start{
+  background-color: green;
+}
+.stop{
+  background-color: orange;
+}
+.reset{
+  background-color: blue;
+}
