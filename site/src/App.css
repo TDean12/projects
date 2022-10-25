@@ -1,5 +1,108 @@
 .background{
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+    background-image: url(./svg/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.group1{
+    display: flex;
+    justify-content: space-between;
+}
+.group2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 8px;
+}
+.button1{
+    height: 56px;
+    width: 128px;
+    background-color: rgb(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 1px solid;
+    color: white;
+    border-radius: 3px;
+}
+.text1{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.text2{
+    margin-left: 400px;
+
+}
+.text3{
+    height: 13px;
+    width: 63px;
+    color: white;
+}
+.text4{
+    height: 13px;
+    width: 59px;
+    color: white;
+}
+.text5{
+    height: 16px;
+    width: 45px;
+    color: white;
+}
+.group3{
+    margin-top: 210px;
+    margin-left: 100px;
+}
+.grp1{
+    font-size: 50px;
+    color: white;
+}
+.grp2{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.group4 {
+    margin-top: 30px;
+}
+.input{
+    height: 45px;
+    width: 270px;
+    margin-left: 100px;
+}
+.button2{
+    background-color: rgb(42, 121, 211);
+    border-radius: 3px;
+    border-color: rgb(42, 121, 211);
+    height: 50px;
+    margin-left: 20px;
+}
+.background2{
+    display: flex;
+}
+.group5{
+    margin-left: 100px;
+}
+.grp3{
+    font-size: 50px;
+    margin-top: 350px;
+}
+.grp4{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.link1{
+    color: blue;
+    margin-top: 40px;
+}
+.big{
+    background-image: url(./svg/ooto\ Meetings\ 1.png);
+    width: 480px;
+    height: 680px;
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 250px;
+    margin-left: 370px;
+    background-size: cover;
 }
