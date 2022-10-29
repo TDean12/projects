@@ -50,8 +50,24 @@ function App() {
           <div className="link1">Learn more</div>
         </div>
         <div className="group6">
+          {/* jijig group */}
           <div className="small"></div>
+          {/* jijig group */}
+          <div className="notf"></div>
+          <div className="date"></div>
           <div className="big"></div>
+        </div>
+      </div>
+      <div className="background3">
+        <div className="group7">
+          <div className="big2"></div>
+          <div className="small2"></div>
+          <div className="small3"></div>
+        </div> 
+        <div className="group8">
+          <div className="text17"></div>
+          <div className="text18"></div>
+          <div className="link2">Learn more</div>
         </div>
       </div>
     </div>
