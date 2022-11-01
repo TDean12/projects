@@ -70,6 +70,31 @@ function App() {
           <div className="link2">Learn more</div>
         </div>
       </div>
+      <div className="group9">
+        <div className="group10">
+          <div className="text19"></div>
+          <div className="text20"></div>
+          <div className="link3">Learn more</div>
+        </div>
+        <div className="group11">
+          <div className="big3"></div>
+          <div className="small4"></div>
+        </div>
+      </div>
+      <div className="group12">
+        <div className="text21">What people say about us</div>
+        <div className="group13">
+          <div className="scroll1"></div>
+          <div className="scroll2"></div>
+          <div className="scroll3"></div>
+          <div className="scroll4"></div>
+        </div>
+        <div className="buttongroup">
+          <div className="button3"></div>
+          <div className="button4"></div>
+        </div>
+      </div>
+      <div className="group14"></div>
     </div>
   );
 }
