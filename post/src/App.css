@@ -3,11 +3,9 @@ body {
 }
 
 .text {
-  color: white;
   justify-content: center;
   font-size: 30px;
   display: flex;
-  margin-top: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -21,10 +19,11 @@ body {
 .post {
   border-color: white;
   border-radius: 30px;
-  height: 500px;
-  width: 30vw;
+  height: 600px;
+  width: 400px;
   border: solid white 4px;
   color: white;
+  margin-left: 35px;
 }
 .switch {
   position: relative;
@@ -88,4 +87,40 @@ input:checked + .slider:before {
 .dark{
   background-color: white;
   color: black;
+}
+
+.darkMode{
+  border-color: white;
+  color: white;
+}
+.light{
+  color: black;
+  border-color: black;
+}
+.toglle{
+  display: flex;
+  justify-content: center;
+}
+.top{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 30px;
+}
+.names{
+  display: flex;
+  gap: 5px;
+  font-size: 35px;
+}
+.tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.postTxt{
+  font-family: 'Times New Roman', Times, serif;
+}
+.likeButton{
+  margin-top: 20px;
 }
