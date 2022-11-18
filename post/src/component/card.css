@@ -1,0 +1,59 @@
+.cardImage{
+
+    border-radius: 10px;
+    border-color: white;
+}
+.text{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text1{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    height: 20px;
+}
+.cardContainer{
+    border-color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+.comment{
+  display: flex;
+  border-radius: 40px;
+  border-color: black;
+}
+.cmmntBttn{
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(94, 92, 92);
+  color: white;
+}
+.img{
+  background: url(../icons8-email-send-48.png);
+  background: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+.trash{
+    height: 70px;
+    height: 70px;
+}
+.post1{
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color: white;
+}
+.garj{
+    display: flex;
+}
