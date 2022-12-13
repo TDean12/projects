@@ -20,7 +20,8 @@
           </div>
 
           <div className='tasks'>
-        {list.filter((todo) => todo.toLowerCase().includes(searchValue.toLowerCase())).map((todo, index) => <Text value={todo} index={index} list={list} setList={setList} />)}
+        {list.map((todo, index) => <Text value={todo} index={index} list={list} setList={setList} />)}
+        {/* {list.filter((todo) => todo.toLowerCase().includes(searchValue.toLowerCase())).map((todo, index) => <Text value={todo} index={index} list={list} setList={setList} />)} */}
       </div>
         </div>
         <div className='container2'>

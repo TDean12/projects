@@ -1,25 +1,27 @@
 import "./card.css";
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Card = ({ text, image, tags, firstName, id, width, height }) => {
-  const navigation = useNavigate();
+  // function text({ value }) {
+  //   const deleteComment = () => {
+  //     const newComment = list.filter((cur) => cur !== value);
+  //     setComment(newComment);
+  //   };
+  // }
 
-  const onClickCard = () => {
-    navigation(`/post/${id}`);
+  // function App() {
+  const [comment, setComment] = useState([]);
+  const [inputValue, setInputValue] = useState("");
+  // const [searchValue, setSearchValue] = useState("");
 
-    const post = document.getElementById("post");
-    post.addEventListener("click", function () {
-      const commentBoxValue = document.getElementById("comment-box").value;
-
-      const li = document.createElement("li");
-      const text = document.createTextNode(commentBoxValue);
-      li.appendChild(text);
-      document.getElementById("unordered").appendChild(li);
-    });
+  const onPressSubmit = () => {
+    console.log(inputValue);
   };
+  // const setComment = [inputValue]
   return (
-    <div className="cardContainer" onClick={onClickCard}>
+    
+    <div className="cardContainer">
       <img
         className="cardImage"
         src={image}
@@ -32,8 +34,26 @@ export const Card = ({ text, image, tags, firstName, id, width, height }) => {
       <div className="text1">#{text}</div>
       <h1 className="text3">{firstName}</h1>
       <div className="comment">
-        <input id="comment-box" type="text" className="post1" placeholder="comment"></input>
+        <input
+          id="comment-box"
+          type="text"
+          className="post1"
+          placeholder="comment"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key == "Enter") {
+              setComment([...comment, inputValue]);
+              setInputValue("");
+            }
+          }}
+        ></input>
         <img
+          onClick={(onPressSubmit) => {
+            setComment([...comment, inputValue]);
+            setInputValue("");
+          }}
+          value="Click me"
           className="img"
           id="post"
           src="https://www.svgrepo.com/show/230979/send.svg"
@@ -41,12 +61,31 @@ export const Card = ({ text, image, tags, firstName, id, width, height }) => {
           srcSet="https://www.svgrepo.com/show/230979/send.svg 4x"
         />
       </div>
+
       <div className="garj">
-        <ul id="unordered"></ul>
-        <img className="trash"
-          src="https://img.icons8.com/clouds/512/full-trash.png"
-        />
+        {comment.map((value, index) => (
+          <Commentt value={value} index={index} comment={comment} setComment={setComment} />
+        ))}
       </div>
     </div>
   );
+  // }
 };
+
+function Commentt({ value, comment, setComment, index }) {
+  const deleteComment = () => {
+    const newComment = comment.filter((cur, i) => i !== index);
+    setComment(newComment);
+  };
+
+  return (
+    <div className="task-container">
+      <p>{`${value}`}</p>
+      <img
+        className="trash"
+        src="https://img.icons8.com/clouds/512/full-trash.png"
+        onClick={deleteComment}
+      />
+    </div>
+  );
+}

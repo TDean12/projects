@@ -5,23 +5,26 @@
 }
 .text{
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
 .text1{
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family:fantasy;
     height: 20px;
+    margin-bottom: 10px ;
 }
 .cardContainer{
     border-color: white;
     display: flex;
-    width: 100vw;
-    height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: white;
-    color: black;
+    background-color: rgb(161, 228, 220);
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 700px;
 }
 .comment{
   display: flex;
@@ -45,15 +48,20 @@
     border-radius: 5px;
 }
 .trash{
-    height: 70px;
+    width: 70px;
     height: 70px;
 }
 .post1{
     height: 40px;
     width: 160px;
-    background-color: black;
+    background-color: rgb(27, 27, 52);
     color: white;
+    margin-left: 40px;
 }
 .garj{
+    display: flex;
+    flex-direction: column;
+}
+.task-container{
     display: flex;
 }

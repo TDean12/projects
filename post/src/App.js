@@ -3,8 +3,6 @@ import axios from "axios";
 import React, { useEffect, useState, useContext } from "react";
 import { ColorModeContext } from "./theme/theme";
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
-import { HomeScreen } from "./page/home-page";
-import { PostPage } from "./page/page-page";
 
 function App() {
   const { ToggleSwitch, darkMode } = useContext(ColorModeContext);
