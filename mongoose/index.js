@@ -3,13 +3,13 @@ const express = require("express");
 const app = express();
 const PORT = 8000;
 const bp = require("body-parser");
-const router = require("./router")
+const router = require("./routes/userRouter")
 
 
-connect();
+// connect();
 
 app.use(bp.json());
-app.use(router);
+app.use('user/', router);
 
 app.listen(PORT, () => {
     console.log("working");
