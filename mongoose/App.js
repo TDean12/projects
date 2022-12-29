@@ -5,7 +5,7 @@ const mongoose =require("mongoose");
 
 const connect = async () => {
   try {
-    // await mongoose.connect(uri);
+     await mongoose.connect(uri);
     console.log("Database is successfully connected.")
   } catch (error) {
     console.log(error);

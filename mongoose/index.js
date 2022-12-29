@@ -1,15 +1,20 @@
-const connect = require("./App");
+const mongoose = require('mongoose')
 const express = require("express");
 const app = express();
 const PORT = 8000;
-const bp = require("body-parser");
 const router = require("./routes/userRouter")
 
 
-// connect();
+const uri = "mongodb+srv://tugu_dean:lol@cluster0.mc4eln1.mongodb.net/todo?retryWrites=true&w=majority"
 
-app.use(bp.json());
-app.use('user/', router);
+app.use(express.json());
+
+mongoose.connect(uri);
+mongoose.connection.once("open" , () => {
+    console.log("succes")
+})
+
+app.use(router);
 
 app.listen(PORT, () => {
     console.log("working");
