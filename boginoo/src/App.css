@@ -1,0 +1,103 @@
+.txt1{
+  /* Хэрхэн ажилладаж вэ? */
+
+  position: absolute;
+  width: 274px;
+  height: 23px;
+  left: 1900px;
+  top: 66px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #02B589;
+
+
+}
+.nevtreh{
+  position: absolute;
+  width: 183px;
+  height: 44px;
+  left: 2200px;
+  top: 56px;
+
+  background: #02B589; 
+  border-radius: 100px; 
+
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.txt2{
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+  margin-top: 10px ;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 450px ;
+  margin-left: 1200px;
+}
+.input{
+  height: 35px;
+  width: 650px;
+  border-radius: 90px;
+  margin-top: 80px ;
+  position: absolute;
+  left: 33%;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.logo{
+  height: 140px;
+  width: 240px;
+}
+.bogin{
+  position: absolute;
+  width: 183px;
+  height: 44px;
+  left: 2200px;
+  top: 49%;
+  left: 60%;
+
+
+  background: #02B589; 
+  border-radius: 100px; 
+
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.txt3{
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+  margin-top: 10px ;
+}

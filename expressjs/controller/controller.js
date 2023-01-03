@@ -1,6 +1,5 @@
 const User = require("../models/User");
 
-
 exports.getUsers = async (_request, response) => {
   try {
     const users = await User.find()
@@ -21,7 +20,7 @@ exports.getUsersbyId = async (request, response) => {
 }
 
 exports.createUsers= async(request,response) =>{
-const user=request.body
+const user = request.body
 try{
 const userData= await User.create(user);
 response.send(userData)
@@ -29,6 +28,7 @@ response.send(userData)
   response.status(500).send({message:"Failed to add"+ error.message})
 }
 }
+
 exports.updateUsers=async(request,response)=>{
   const _id=request.params.id;
   const user = request.body
@@ -49,5 +49,3 @@ exports.deleteUsers=async(request,response)=>{
     response.status(400).send({message:"Failed to delete" +error.message})
   }
 }
-
-
