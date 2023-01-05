@@ -1,0 +1,348 @@
+.logo{
+  position: absolute;
+    width: 184px;
+    height: 118px;
+    left: 48%;
+    top: 484px;
+}
+.herhen{
+  position: absolute;
+    width: 304px;
+    height: 23px;
+    top: 60px;
+    left: 78%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;  
+    text-transform: uppercase;
+  
+    color: #02B589;
+}
+.loginHerhen{
+    position: absolute;
+    margin-left: 87%;
+      width: 274px;
+      height: 23px;
+      top: 45px;
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      text-transform: uppercase;
+      color: #02B589;
+}
+.loginLogo{
+  margin-left: 48%;
+  margin-top: 12%;
+}
+.loginButton {
+  position: absolute;
+    width: 153px;
+    height: 64px;
+    top: 56px;
+   left: 90%;
+    background: #02B589;
+    border-radius: 100px;
+    border: none;
+
+}
+.loginButtonText{
+  margin-left: 2px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 5px;
+  
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+}
+.loginButton:hover{
+  background: #029b75
+}
+.loginButton:active{
+    background: #005a43
+}
+.inputContainer{
+  position: absolute;
+    width: 551px;
+    height: 44px;
+    left: 41%;
+    top: 606px;
+}
+.inputText{
+    box-sizing: border-box;
+    width: 581px;
+    height: 54px;
+    left: 325px;
+    margin-top: 70px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 100px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    color: gray;
+    font-size: 22px;
+}
+::placeholder{
+  margin-left:20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  
+    opacity: 0.2;
+}
+.shortenButtonText{
+font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 5px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.shortenButton{
+  position: absolute;
+  width: 192px;
+  height: 54px;
+  left: 600px;
+  top: 155%;
+  background: #02B589;
+  border-radius: 100px;
+  border: none;
+}
+.topLoginText{
+  position: absolute;
+    width: 130px;
+    height: 37px;
+    left: 1245px;
+    top: 35%;
+  
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 37px;
+  
+    text-align: center;
+  
+    color: #02B589;
+}
+.emailP{
+  font-family: 'Ubuntu';
+  position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    top: 45%;
+    left: 1200px;
+    color: #000000;
+}
+.emailInput{
+  box-sizing: border-box;
+    top:48%;
+    left: 1180px;
+    position: absolute;
+    width: 381px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 100px;
+    border: none;
+}
+.passP{
+    font-family: 'Ubuntu';
+      position: absolute;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      top: 53%;
+      left: 1200px;
+      color: #000000;
+}
+.passInput{
+    box-sizing: border-box;
+      top: 56%;
+      left: 1180px;
+      position: absolute;
+      width: 381px;
+      height: 44px;
+      background: #FFFFFF;
+      border: 1px solid #F0F0F0;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+      border-radius: 100px;
+}
+.emailInput:focus{
+  outline: none;
+}
+.passInput:focus{
+  outline: none;
+}
+.inputText:focus{
+  outline: none;
+}
+.rememberP{
+  font-family: 'Ubuntu';
+    font-style: normal;
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #02B589;
+    top: 60%;
+    left: 1220px;
+}
+.rememberCheck{
+  color:#02B589 ;
+    border: 1px solid #02B589;
+    position: absolute;
+    box-shadow: inset 1px 1px 2px 2px 2px #02B589;
+    border-radius: 4px;
+    top: 61%;
+    left: 1200px;
+    margin-top: 5px;
+  }
+.forgotPassTextOnLogin{
+    background-color: #FFFFFF;
+      border: none;
+  font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+    position: absolute;
+    top: 61%;
+    margin-top: 5px;
+    left: 1420px;
+}
+.forgotPassTextOnLogin:hover{
+      text-decoration-line: underline;
+}
+.loginButtonOnLogin{
+  position: absolute;
+    width: 383px;
+    height: 43px;
+    top: 65%;
+    left: 1190px;
+    background: #02B589;
+    border-radius: 100px;
+    border: none;
+}
+.loginButtonOnLoginText{
+  width: 93px;
+    height: 23px;
+    margin-left: 37%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.loginButtonOnLogin:hover{
+  background-color: #029b75;
+}
+.loginButtonOnLogin:active {
+  background-color:#005a43;
+}
+.signupOnLogin{
+  background-color: #FFFFFF;
+  border: none;
+  position: absolute;
+    height: 18px;
+    top: 69%;
+      left: 1190px;
+  
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #02B589;
+}
+.signupOnLogin:hover{
+  color:#029b75;
+  text-decoration-line: underline;
+}
+input{
+      box-sizing: border-box;
+          padding: 15px;
+}
+.passP2{
+      font-family: 'Ubuntu';
+        position: absolute;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        top:67%;
+        left: 1260px;
+        color: #000000;
+}
+.passInput2{
+      box-sizing: border-box;
+        top: 70%;
+        left: 1260px;
+        position: absolute;
+        width: 381px;
+        height: 44px;
+        background: #FFFFFF;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+        border-radius: 100px;
+}
+.signup{
+  position: absolute;
+    width: 383px;
+    height: 43px;
+    top: 76%;
+    left: 1260px;
+    background: #02B589;
+    border-radius: 100px;
+    border: none;
+}
+.signupText{
+    width: 93px;
+      height: 23px;
+      margin-left: 35%;
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 3px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+}
+.topSignupText{
+    position: absolute;
+      width: 130px;
+      height: 37px;
+      left: 1350px;
+      top: 553px;
+    
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 1000;
+      font-size: 40px;
+      line-height: 37px;
+    
+      text-align: center;
+    
+      color: #02B589;
+}
