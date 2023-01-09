@@ -12,6 +12,7 @@ const Login = () => {
       ></link>
       <p className="loginHerhen">Хэрхэн ажилладаг вэ?</p>
       <img className="loginLogo" src={logo} />
+      <div className="nevtreh">
       <p className="topLoginText">Нэвтрэх</p>
       <div className="nevtreh">
         <div>
@@ -35,6 +36,7 @@ const Login = () => {
             <p>Шинэ хэрэглэгч бол энд дарна уу?</p>
           </button>
         </Link>
+        </div>
       </div>
     </div>
   );
