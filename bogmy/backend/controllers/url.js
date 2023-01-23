@@ -54,7 +54,7 @@ exports.createShort = async (request, response) => {
         short,
         ownerId
     });
-    response.status(200).json({
+    response.status(200).json({ 
         isDone: true,
         data: createdShort,
         message: "амжилттай богиноо үүсгэллээ",

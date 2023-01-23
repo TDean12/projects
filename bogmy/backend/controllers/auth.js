@@ -13,7 +13,7 @@ exports.register = async (request,response ) => {
         const user = await UserModel.create({email:email, password:hash});
         response.status(200).json({
             message: "created user succes",
-            DataTransfer: user,
+            email: user.email,
         });
         response.send(user);
         console.log(user.users);
