@@ -22,6 +22,7 @@ const Home = () => {
   RandomGenerator(5);
   console.log(RandomGenerator(5));
 
+  
   return (
     <div>
       <link

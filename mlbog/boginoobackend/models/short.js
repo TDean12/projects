@@ -20,3 +20,4 @@ const shortModel = mongoose.Schema({
 const shorts = mongoose.model("histories", shortModel);
 
 module.exports = shorts;
+

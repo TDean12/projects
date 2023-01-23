@@ -46,6 +46,7 @@ const login = async (req, res) => {
   }
 };
 
+
 module.exports = {
   register,
   login,
@@ -68,5 +69,5 @@ const getLinks = (req, res, next) => {
   res.status(200).json ({
     message : "succes",
     data : ["links","link"]
-  })
+  });
 }

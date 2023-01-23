@@ -6,7 +6,6 @@ import Signup from "./components/signup";
 import Forgot from "./components/forgotpass";
 function App() {
   return (
-    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -14,9 +13,18 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/forgotpass" element={<Forgot />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </BrowserRouter>   
   );
 }
+// // axios.interceptors.request.use(
+// //  (config) => {
+// //    const token = Cookies.get("token")
+//     config.headers.set("token", token);
+//     return config;
+//   },
+//  (error) => {
+//   return Promise.reject(error);
+//  }
+//  )
 
 export default App;

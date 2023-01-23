@@ -1,16 +1,17 @@
-const mongoose = require('express');
-require("dotemv").config();
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const uri = process.env.MONGODB_URL || "";
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-
-const connect = async ()=>{
-  try{
-    await mongoose.connect(uri);
-    console.log("Database is succesfully connected");
-  } catch (error) {
-    console.error(error);
-  }
-};
-
-module.exports = connect
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
